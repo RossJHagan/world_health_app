@@ -1,0 +1,5 @@
+{
+  name: '<your username here>',
+  token: '<your token>',
+  secret: '<your secret key>'
+}
