@@ -20,6 +20,10 @@ shinyUI(fluidPage(
             "Source data at WorldBank site", 
             href="http://data.worldbank.org/indicator#topic-8")))),
     column(width = 12, 
+      div(class="alert alert-warning",
+          span(class="glyphicon glyphicon-warning-sign"),
+          "Please allow approximately 30 seconds for the data to load"
+      ),
       uiOutput('countries')),
     plotOutput("lifeExpectPlot")
   )))
