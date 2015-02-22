@@ -3,10 +3,10 @@ library(shiny)
 library(ggplot2)
 
 shinyUI(fluidPage(
-  title = "World Health - Life Expectency",
-  headerPanel("World Health Life Expectency"),
+  title = "World Health - Life Expectancy",
+  headerPanel("World Health Life Expectancy"),
   div(class = "help-block", "This application serves as a convenient",
-                            "way to visualise total life expectencies across countries"),
+                            "way to visualise total life expectancies across countries"),
   div(class = "fluid-container",
   fluidRow(
     column(width = 12,

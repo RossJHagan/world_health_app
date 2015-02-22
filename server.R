@@ -39,8 +39,8 @@ shinyServer(function (input, output) {
       print(nrow(life))
       p <- ggplot(life, aes(x = year, y = value, color = Country.Name)) + geom_point() + 
         labs(list(x= "Year", 
-                  y= "Total Life Expectency (Years)", 
-                  title = paste0("Life Expectency Change - ", input$countryName))) +
+                  y= "Total Life Expectancy (Years)", 
+                  title = paste0("Life Expectancy Change - ", input$countryName))) +
         scale_x_discrete(breaks = yearLabs, labels = as.character(yearLabs))
       print(p)
     })
